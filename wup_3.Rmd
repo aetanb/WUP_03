@@ -44,6 +44,12 @@ favstats(alcohol~Seat,data=ucdavis1)
 The number of people sitting in the middle is the highest when compared to people sitting in the front and the people sitting in the back. However, the standard deviation of the people sitting in the back is the highest compared to the people sitting in the front and teh middle. 
 
 ## Inferential Tests
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+Because the P value is such a low value (.0001) the chances of this happening with nothing strange occurring is extremely rare.
 
 ## Conclusions
 
