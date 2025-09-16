@@ -37,6 +37,12 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+The number of people sitting in the middle is the highest when compared to people sitting in the front and the people sitting in the back. However, the standard deviation of the people sitting in the back is the highest compared to the people sitting in the front and teh middle. 
+
 ## Inferential Tests
 
 ## Conclusions
