@@ -59,4 +59,4 @@ The back row and front row are different because 0 is not in the confidence inte
 
 ## Conclusions
 
-
+When we have more than one category then we must use one way anova and by using this we can examine the comparisons between all the different categories. And this is necessary when the P value acquired from inferential results is a very low value. The goal is to figure out which category is different than another.
